@@ -154,8 +154,8 @@
     color: #FFFFFF;
     border-radius: 5px;
     position: relative;
-    top: -10px;
-    left: 114px;
+    top: 11px;
+    left: 110px;
     font-size: 12px;
   }
   .login-bt1 span i{
@@ -165,12 +165,14 @@
     color: #7F8393;
     position: relative;
     left: 10px;
+    top: 25px;
     font-size: 20px;
   }
   .i-icon-2{
     position: relative;
     color: #7F8393;
     left: 185px;
+    top: 25px;
     font-size: 20px;
   }
 </style>

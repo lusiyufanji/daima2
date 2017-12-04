@@ -48,6 +48,7 @@ a:active {text-decoration:none ; color:#000 ;}
 .abs-right{position: absolute;right: 0}
 .zoom{zomm:1;}
 .hidden{visibility: hidden}
+.visible{visibility: visible}
 .none{display: none}
 
 /*长度高度*/

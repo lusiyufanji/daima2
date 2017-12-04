@@ -83,7 +83,7 @@
   .right-message img{
     margin-top: 244px;
   }
-  .router-link-active li{
+  .left-message .router-link-active  li{
     background-color:#EBEBEC ;
   }
 </style>
