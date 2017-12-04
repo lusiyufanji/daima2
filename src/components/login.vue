@@ -26,7 +26,6 @@
             <span><i class="fa fa-shield"></i>&nbsp;&nbsp;&nbsp;&nbsp; 安 全 登 录 </span>
           </router-link>
           <i class="fa fa-qrcode i-icon-2"></i>
-
         </div>
       </div>
     </div>

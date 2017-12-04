@@ -7,6 +7,7 @@ import Friends from  '@/components/Friends'
 import onLineWord from  '@/components/onLineWord'
 import messageChat from '@/components/messageChat'
 import messageChat2 from '@/components/messageChat2'
+require('@/assets/base.css')
 
 Vue.use(Router);
 
