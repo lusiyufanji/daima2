@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="friends-mianban clearfix">
-      <div class="friend-left fl">
+      <div class="friend-left fl"  @click="addlist = 2">
         <div class="friend-tab">
           <span @click="friends = 1,groups =2,chatManyPeople = 2" :class="{ 'border-b':friends === 1,'border-none':friends === 2 }">&nbsp;好友&nbsp;</span>
           <span @click="groups = 1,friends = 2,chatManyPeople = 2" :class="{ 'border-b':groups === 1,'border-none':groups === 2  }">&nbsp;群&nbsp;</span>
@@ -33,7 +33,17 @@
           123123
         </div>
       </div>
-      <div class="right-img fl">
+      <span class="addFriends" @click="addlist = 1">
+          <img src="../assets/addFirends.png" alt="">
+      </span>
+      <div class="addList" :class="{ 'visible':addlist === 1,'hidden':addlist === 2 }">
+        <ul @click="addlist = 2">
+          <li>加好友/加群</li>
+          <li>创建群</li>
+          <li>发起多人聊天</li>
+        </ul>
+      </div>
+      <div class="right-img fl"  @click="addlist = 2">
         <img src="../assets/bg-friends.png" alt="">
       </div>
     </div>
@@ -46,7 +56,8 @@ export default {
     return{
       friends:1,
       groups:2,
-      chatManyPeople:2
+      chatManyPeople:2,
+      addlist:2
     }
   }
 }
@@ -138,5 +149,38 @@ export default {
   .color-7f{
     color: #7F7F7F;
     font-size: 12px;
+  }
+  .addFriends{
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+    background-color: #0188FB;
+    text-align: center;
+    position: absolute;
+    bottom: 14px;
+    left: 156px;
+    display: block;
+  }
+  .addFriends img{
+    width: 25px;
+    margin: 2.5px;
+  }
+  .addList{
+    position: absolute;
+    bottom: 5px;
+    border: 1px solid #d8d8d8;
+    left: 2px;
+    -webkit-box-shadow: 0 3px 9px #898989;
+    box-shadow: 0 3px 9px #898989;
+    font-size: 14px;
+  }
+  .addList ul li{
+    margin: 3px 0;
+    padding-left: 40px;
+    padding-right: 10px;
+    line-height: 30px;
+  }
+  .addList ul li:hover{
+    background-color: #E6E9ED;
   }
 </style>
