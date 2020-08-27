@@ -12,4 +12,4 @@
 ![好友列表，红色部分为本人好友列表](https://gitee.com/uploads/images/2017/1130/180538_b9d708e8_1627195.png "friends.png")
 # 在线文档（TIM）
 ![在线文档（TIM）](https://gitee.com/uploads/images/2017/1130/180609_72d229a8_1627195.png "onLineWord.png")
-左为项目预览，右为实际软件效果
+左为项目预览，右为实际软件效果# daima2
